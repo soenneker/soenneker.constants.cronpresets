@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Constants.CronPresets.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Constants.CronPresets\Soenneker.Constants.CronPresets.csproj" />
     </ItemGroup>
 
     <ItemGroup>
