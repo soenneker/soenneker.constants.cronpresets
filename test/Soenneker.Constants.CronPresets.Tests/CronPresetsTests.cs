@@ -1,18 +1,17 @@
-﻿using Soenneker.Tests.FixturedUnit;
-using Xunit;
+using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.Constants.CronPresets.Tests;
 
-[Collection("Collection")]
-public class CronPresetsTests : FixturedUnitTest
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
+public class CronPresetsTests : HostedUnitTest
 {
 
-    public CronPresetsTests(Fixture fixture, ITestOutputHelper output) : base(fixture, output)
+    public CronPresetsTests(Host host) : base(host)
     {
 
     }
 
-    [Fact]
+    [Test]
     public void Default()
     {
 
