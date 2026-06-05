@@ -53,30 +53,81 @@ public static class CronPresets
 
     // ----- Daily -----
 
+    /// <summary>
+    /// The daily midnight.
+    /// </summary>
     public const string DailyMidnight = "0 0 * * *";
+    /// <summary>
+    /// The daily noon.
+    /// </summary>
     public const string DailyNoon = "0 12 * * *";
+    /// <summary>
+    /// The daily2 am.
+    /// </summary>
     public const string Daily2AM = "0 2 * * *";
+    /// <summary>
+    /// The daily4 am.
+    /// </summary>
     public const string Daily4AM = "0 4 * * *";
+    /// <summary>
+    /// The daily6 am.
+    /// </summary>
     public const string Daily6AM = "0 6 * * *";
+    /// <summary>
+    /// The daily8 am.
+    /// </summary>
     public const string Daily8AM = "0 8 * * *";
+    /// <summary>
+    /// The daily9 am.
+    /// </summary>
     public const string Daily9AM = "0 9 * * *";
+    /// <summary>
+    /// The daily5 pm.
+    /// </summary>
     public const string Daily5PM = "0 17 * * *";
+    /// <summary>
+    /// The daily8 pm.
+    /// </summary>
     public const string Daily8PM = "0 20 * * *";
+    /// <summary>
+    /// The daily10 pm.
+    /// </summary>
     public const string Daily10PM = "0 22 * * *";
 
     // ----- Weekday/Weekend -----
 
+    /// <summary>
+    /// The weekdays at8 am.
+    /// </summary>
     public const string WeekdaysAt8AM = "0 8 * * MON-FRI";
+    /// <summary>
+    /// The weekends at10 am.
+    /// </summary>
     public const string WeekendsAt10AM = "0 10 * * SAT,SUN";
 
     // ----- Weekly -----
 
+    /// <summary>
+    /// The every monday at6 am.
+    /// </summary>
     public const string EveryMondayAt6AM = "0 6 * * MON";
+    /// <summary>
+    /// The every friday at1 pm.
+    /// </summary>
     public const string EveryFridayAt1PM = "0 13 * * FRI";
+    /// <summary>
+    /// The every sunday at midnight.
+    /// </summary>
     public const string EverySundayAtMidnight = "0 0 * * SUN";
 
     // ----- Monthly -----
 
+    /// <summary>
+    /// The first of month at midnight.
+    /// </summary>
     public const string FirstOfMonthAtMidnight = "0 0 1 * *";
+    /// <summary>
+    /// The first of month at6 am.
+    /// </summary>
     public const string FirstOfMonthAt6AM = "0 6 1 * *";
 }
